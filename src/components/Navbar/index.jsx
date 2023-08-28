@@ -10,7 +10,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="  bg-gradient-to-r  from-cyan-500  to-teal-500  text-white px-4 py-2 
+            className="  bg-gradient-to-r  from-purple-500  to-purple-800  text-white px-4 py-2 
              rounded-md ml-8"
             href="#"
           >

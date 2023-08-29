@@ -1,7 +1,5 @@
 import React from "react";
 import Cards from "./cards";
-import desing from "../../../public/design.png";
-import Image from "next/image";
 const Services = () => {
   return (
     <section className="">

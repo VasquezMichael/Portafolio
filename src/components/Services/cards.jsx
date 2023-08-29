@@ -5,8 +5,8 @@ import code from "../../../public/code.png";
 import consulting from "../../../public/consulting.png";
 const cards = () => {
   return (
-    <section id="section-cards">
-      <div id="card" className=" shadow-xl p-10 rounded-xl my-10">
+    <section id="section-cards" className="md:flex md: gap-10">
+      <div id="card" className=" shadow-xl p-10 rounded-xl my-10 ">
         <div id="img-card" className="flex justify-center">
           <Image src={desing} className="" width={100} height={100} />
         </div>

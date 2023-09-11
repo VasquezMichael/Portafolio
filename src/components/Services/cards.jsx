@@ -1,55 +1,34 @@
 import React from "react";
 import Image from "next/image";
-import desing from "../../../public/design.png";
-import code from "../../../public/code.png";
-import consulting from "../../../public/consulting.png";
+import html from "../../../public/html-icon.png";
+import github from "../../../public/github-icon.png";
+import js from "../../../public/javascript-icon.png";
+import react from "../../../public/react-js-icon.png";
+import git from "../../../public/git-icon.png";
+import css from "../../../public/css-icon.png";
 const cards = () => {
   return (
-    <section id="section-cards" className="md:flex md: gap-10">
-      <div id="card" className=" shadow-xl p-10 rounded-xl my-10 ">
-        <div id="img-card" className="flex justify-center">
-          <Image src={desing} className="" width={100} height={100} />
-        </div>
-        <div className="text-center">
-          <h3 className="text-lg font-medium pt-5 pb-4">Diseños</h3>
-          <p className="py-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing
-          </p>
-          <h4>Herramientas</h4>
-          <p className=" text-gray-800 py-1">Java</p>
-          <p className=" text-gray-800 py-1">Python</p>
-          <p className=" text-gray-800 py-1">JavaScript</p>
-        </div>
+    <section
+      id="section-cards"
+      className="grid grid-cols-2 md:grid-cols-4 gap-5 my-10"
+    >
+      <div id="card" className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto ">
+        <Image src={js} className="w-full h-full object-cover" />
       </div>
-      <div id="card" className=" shadow-xl p-10  rounded-xl my-10">
-        <div id="img-card" className="flex justify-center">
-          <Image src={code} className="" width={100} height={100} />
-        </div>
-        <div className="text-center">
-          <h3 className="text-lg font-medium pt-5 pb-4">Diseños</h3>
-          <p className="py-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing
-          </p>
-          <h4>Herramientas</h4>
-          <p className=" text-gray-800 py-1">Java</p>
-          <p className=" text-gray-800 py-1">Python</p>
-          <p className=" text-gray-800 py-1">JavaScript</p>
-        </div>
+      <div id="card" className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto">
+        <Image src={react} className="w-full h-full object-contain" />
       </div>
-      <div id="card" className=" shadow-xl p-10  rounded-xl my-10">
-        <div id="img-card" className="flex justify-center">
-          <Image src={consulting} className="" width={100} height={100} />
-        </div>
-        <div className="text-center">
-          <h3 className="text-lg font-medium pt-5 pb-4">Diseños</h3>
-          <p className="py-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing
-          </p>
-          <h4>Herramientas</h4>
-          <p className=" text-gray-800 py-1">Java</p>
-          <p className=" text-gray-800 py-1">Python</p>
-          <p className=" text-gray-800 py-1">JavaScript</p>
-        </div>
+      <div id="card" className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto">
+        <Image src={github} className="w-full h-full object-contain" />
+      </div>
+      <div id="card" className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto">
+        <Image src={git} className="w-full h-full object-contain" />
+      </div>
+      <div id="card" className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto">
+        <Image src={html} className="w-full h-full object-contain" />
+      </div>
+      <div id="card" className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto">
+        <Image src={css} className="w-full h-full object-contain" />
       </div>
     </section>
   );

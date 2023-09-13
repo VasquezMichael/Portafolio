@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Hero from "../Hero";
-import Services from "../Services";
+import Skills from "../Skills";
 import Jobs from "../Jobs";
+import Training from "../Training";
 import { useDarkModeContext } from "../../context/DarkModeContext";
 const Main = () => {
   const { darkMode, setDarkMode } = useDarkModeContext();
@@ -20,7 +21,8 @@ const Main = () => {
         dark:bg-gray-900"
       >
         <Hero />
-        <Services />
+        <Skills />
+        <Training />
         <Jobs />
       </section>
     </main>

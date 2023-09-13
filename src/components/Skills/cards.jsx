@@ -16,49 +16,49 @@ const cards = () => {
     >
       <div
         id="card"
-        className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-gray-100  hover:scale-110 duration-300"
+        className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
         <Image src={js} className="w-full h-full object-cover" />
       </div>
       <div
         id="card"
-        className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-gray-100 hover:scale-110 duration-300"
+        className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
         <Image src={react} className="w-full h-full object-contain" />
       </div>
       <div
         id="card"
-        className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-gray-100 hover:scale-110 duration-300"
+        className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
         <Image src={github} className="w-full h-full object-contain" />
       </div>
       <div
         id="card"
-        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-gray-100 hover:scale-110 duration-300"
+        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
         <Image src={git} className="w-full h-full object-contain" />
       </div>
       <div
         id="card"
-        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-gray-100 hover:scale-110 duration-300"
+        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
         <Image src={mysql} className="w-full h-full object-contain" />
       </div>
       <div
         id="card"
-        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-gray-100 hover:scale-110 duration-300"
+        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
         <Image src={node} className="w-full h-full object-contain" />
       </div>
       <div
         id="card"
-        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-gray-100 hover:scale-110 duration-300"
+        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
         <Image src={html} className="w-full h-full object-contain" />
       </div>
       <div
         id="card"
-        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-gray-100 hover:scale-110 duration-300"
+        className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
         <Image src={css} className="w-full h-full object-contain" />
       </div>

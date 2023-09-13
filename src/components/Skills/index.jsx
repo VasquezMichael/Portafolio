@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "./cards";
-const Services = () => {
+const Skills = () => {
   return (
     <section className="">
       <div className="Habilidades">
@@ -15,4 +15,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Skills;

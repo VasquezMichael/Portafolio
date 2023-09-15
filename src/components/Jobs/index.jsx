@@ -1,7 +1,7 @@
 import React from "react";
-import web1 from "../../../public/web3.png";
-import web2 from "../../../public/web4.png";
-import web3 from "../../../public/web5.png";
+import mkrolex from "../../../public/mkrolex.png";
+import zzshop from "../../../public/zzshop.png";
+import webBarber from "../../../public/barber-web.png";
 import Image from "next/image";
 const Jobs = () => {
   return (
@@ -16,16 +16,13 @@ const Jobs = () => {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
         <div className="  h-full">
-          <Image src={web1} className="h-full" />
+          <Image src={webBarber} className="h-full" />
         </div>
         <div className="">
-          <Image src={web2} className="h-full" />
+          <Image src={mkrolex} className="h-full" />
         </div>
         <div className=" ">
-          <Image src={web3} className="h-full" />
-        </div>
-        <div className=" ">
-          <Image src={web1} className="h-full" />
+          <Image src={zzshop} className="h-full" />
         </div>
       </div>
     </div>

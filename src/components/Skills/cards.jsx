@@ -18,49 +18,81 @@ const cards = () => {
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
-        <Image src={js} className="w-full h-full object-cover" />
+        <Image
+          alt="Image skill"
+          src={js}
+          className="w-full h-full object-cover"
+        />
       </div>
       <div
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
-        <Image src={react} className="w-full h-full object-contain" />
+        <Image
+          alt="Image skill"
+          src={react}
+          className="w-full h-full object-contain"
+        />
       </div>
       <div
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
-        <Image src={github} className="w-full h-full object-contain" />
+        <Image
+          alt="Image skill"
+          src={github}
+          className="w-full h-full object-contain"
+        />
       </div>
       <div
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
-        <Image src={git} className="w-full h-full object-contain" />
+        <Image
+          alt="Image skill"
+          src={git}
+          className="w-full h-full object-contain"
+        />
       </div>
       <div
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
-        <Image src={mysql} className="w-full h-full object-contain" />
+        <Image
+          alt="Image skill"
+          src={mysql}
+          className="w-full h-full object-contain"
+        />
       </div>
       <div
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
-        <Image src={node} className="w-full h-full object-contain" />
+        <Image
+          alt="Image skill"
+          src={node}
+          className="w-full h-full object-contain"
+        />
       </div>
       <div
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
-        <Image src={html} className="w-full h-full object-contain" />
+        <Image
+          alt="Image skill"
+          src={html}
+          className="w-full h-full object-contain"
+        />
       </div>
       <div
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
-        <Image src={css} className="w-full h-full object-contain" />
+        <Image
+          alt="Image skill"
+          src={css}
+          className="w-full h-full object-contain"
+        />
       </div>
     </section>
   );

@@ -33,7 +33,12 @@ const Hero = () => {
           </a>
         </div>
         <div className=" img-hero relative rounded-full mx-auto h h-72 w-72 my-9 bg-gradient-to-b from-purple-900 overflow-hidden md:h-80 md:w-80">
-          <Image layout="fill" objectFit="cover" src={mike} />
+          <Image
+            alt="Image michael"
+            layout="fill"
+            objectFit="cover"
+            src={mike}
+          />
         </div>
       </div>
     </div>

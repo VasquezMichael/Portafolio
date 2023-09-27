@@ -16,7 +16,7 @@ const Main = () => {
       <Navbar />
       <section
         id="body"
-        className=" bg-white px-10 md:px-20 lg:px-40 h-full
+        className=" bg-white px-10 md:px-20 lg:px-28 h-full
    
         dark:bg-gray-900"
       >

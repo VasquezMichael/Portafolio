@@ -4,10 +4,10 @@ import coder from "../../../public/coderhouse.png";
 import Image from "next/image";
 const Training = () => {
   return (
-    <div className="contenedor-training flex w-full h-auto flex-col text-center justify-center p-5">
+    <div className="contenedor-training flex w-full h-auto flex-col text-center justify-center p-5 md:flex-row md:gap-5">
       <div
         id="UNLP"
-        className=" w-64 h-80 m-auto  p-3 rounded-xl my-5 shadow-xl bg-slate-700"
+        className=" w-full h-80 m-auto p-3 rounded-xl my-5 shadow-xl bg-slate-700 md:w-64"
       >
         <div
           id="img-unlp"
@@ -24,7 +24,7 @@ const Training = () => {
 
       <div
         id="Coder-js"
-        className=" w-64 h-80 m-auto rounded-xl my-5 overflow-hidden shadow-xl bg-slate-700 p-3"
+        className=" w-full h-80 m-auto rounded-xl my-5 overflow-hidden shadow-xl bg-slate-700 p-3 md:w-64"
       >
         <div
           id="img-js"
@@ -40,7 +40,7 @@ const Training = () => {
       </div>
       <div
         id="Coder-react"
-        className=" w-64 h-80 m-auto rounded-xl my-5 overflow-hidden shadow-xl bg-slate-700 p-3"
+        className=" w-full h-80 m-auto rounded-xl my-5 overflow-hidden shadow-xl bg-slate-700 p-3 md:w-64"
       >
         <div
           id="img-react"

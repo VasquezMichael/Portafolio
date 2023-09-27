@@ -8,17 +8,11 @@ import { useDarkModeContext } from "../../context/DarkModeContext";
 const Main = () => {
   const { darkMode, setDarkMode } = useDarkModeContext();
   return (
-    <main
-      className={
-        darkMode ? " bg-slate-300 dark min-h-screen" : " min-h-screen "
-      }
-    >
+    <main className={darkMode ? "  dark min-h-screen " : " min-h-screen "}>
       <Navbar />
       <section
         id="body"
-        className=" bg-white px-10 md:px-20 lg:px-28 h-full
-   
-        dark:bg-gray-900"
+        className=" bg-slate-100 px-10 md:px-20 lg:px-28 h-full dark:bg-gray-900"
       >
         <Hero />
         <Skills />

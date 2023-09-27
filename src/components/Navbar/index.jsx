@@ -5,7 +5,7 @@ import { useDarkModeContext } from "../../context/DarkModeContext";
 const Navbar = () => {
   const { darkMode, setDarkMode } = useDarkModeContext();
   return (
-    <nav className="fixed w-full flex h-16  items-center justify-between px-10 md:px-20 lg:px-28 z-50">
+    <nav className="fixed w-full flex h-16  items-center justify-between px-10 md:px-20 lg:px-28 z-50 ">
       <h1 className=" text-xl  font-burtons dark:text-white">Developer</h1>
       <ul className="flex items-center">
         <li className="mx-5">

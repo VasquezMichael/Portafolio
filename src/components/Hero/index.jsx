@@ -5,8 +5,15 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" hero text-center justify-center flex flex-col md:flex-row mb-24">
-      <div className=" h-full mx-auto  mt-32 mb-20 md:w-1/2">
+    <div
+      id="Sobremi"
+      className=" hero text-center justify-center flex flex-col md:flex-row mb-24"
+    >
+      <div
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        className=" h-full mx-auto  mt-32 mb-20 md:w-1/2"
+      >
         <h2 className="text-5xl py-2 text-purple-600 font-medium ">
           Michael Vasquez
         </h2>
@@ -33,7 +40,11 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className=" img-hero relative rounded-full mx-auto my-auto h-72 w-72 bg-gradient-to-b from-purple-900 overflow-hidden md:h-80 md:w-80">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="2000"
+        className=" img-hero relative rounded-full mx-auto my-auto h-72 w-72 bg-gradient-to-b from-purple-900 overflow-hidden md:h-80 md:w-80"
+      >
         <Image alt="Image michael" layout="fill" objectFit="cover" src={mike} />
       </div>
     </div>

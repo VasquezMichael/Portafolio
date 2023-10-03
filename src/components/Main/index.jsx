@@ -4,11 +4,21 @@ import Hero from "../Hero";
 import Skills from "../Skills";
 import Jobs from "../Jobs";
 import Training from "../Training";
+import Footer from "../Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useDarkModeContext } from "../../context/DarkModeContext";
 const Main = () => {
-  const { darkMode, setDarkMode } = useDarkModeContext();
+  const { darkMode } = useDarkModeContext();
+  AOS.init({});
   return (
-    <main className={darkMode ? "  dark min-h-screen " : " min-h-screen "}>
+    <main
+      className={
+        darkMode
+          ? "  dark min-h-screen bg-slate-900"
+          : " min-h-screen bg-slate-100"
+      }
+    >
       <Navbar />
       <section
         id="body"
@@ -19,6 +29,7 @@ const Main = () => {
         <Training />
         <Jobs />
       </section>
+      <Footer />
     </main>
   );
 };

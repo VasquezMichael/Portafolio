@@ -6,7 +6,11 @@ import Image from "next/image";
 
 export const Cards = () => {
   return (
-    <div className="flex flex-wrap flex-col md:flex-row justify-center w-full mb-20 h-full md:gap-5  md:justify-evenly">
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+      className="flex flex-wrap flex-col md:flex-row justify-center w-full h-full gap-5  md:justify-evenly"
+    >
       <div className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5">
         <Image
           alt="image job"

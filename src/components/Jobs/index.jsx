@@ -3,8 +3,12 @@ import { Cards } from "./cards";
 
 const Jobs = () => {
   return (
-    <div className="mb-24">
-      <div className="text-center">
+    <div id="Jobs">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+        className="text-center"
+      >
         <div className="mb-5">
           <h3 className="text-4xl py-1 dark:text-white">Portafolio</h3>
           <p className="text-md py-2  leading-8 text-gray-800 dark:text-gray-300">

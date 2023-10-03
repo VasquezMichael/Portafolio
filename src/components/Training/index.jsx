@@ -4,10 +4,21 @@ import coder from "../../../public/coderhouse.png";
 import Image from "next/image";
 const Training = () => {
   return (
-    <div className="contenedor-training flex w-full h-auto flex-col text-center justify-center p-5 md:gap-5 mb-24">
-      <h3 className="text-4xl mb-5 dark:text-white">Formación</h3>
+    <div
+      id="Training"
+      className="contenedor-training flex w-full h-auto flex-col text-center justify-center p-5 md:gap-5 mb-24"
+    >
+      <h3
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="text-4xl mb-5 dark:text-white"
+      >
+        Formación
+      </h3>
       <div className=" flex flex-col md:flex-row">
         <div
+          data-aos="flip-left"
+          data-aos-duration="1000"
           id="UNLP"
           className=" w-full h-80 m-auto p-3 rounded-xl my-5 shadow-xl bg-slate-700 md:w-64"
         >
@@ -27,6 +38,8 @@ const Training = () => {
         </div>
 
         <div
+          data-aos="flip-left"
+          data-aos-duration="1000"
           id="Coder-js"
           className=" w-full h-80 m-auto rounded-xl my-5 overflow-hidden shadow-xl bg-slate-700 p-3 md:w-64"
         >
@@ -43,6 +56,8 @@ const Training = () => {
           </div>
         </div>
         <div
+          data-aos="flip-left"
+          data-aos-duration="1000"
           id="Coder-react"
           className=" w-full h-80 m-auto rounded-xl my-5 overflow-hidden shadow-xl bg-slate-700 p-3 md:w-64"
         >

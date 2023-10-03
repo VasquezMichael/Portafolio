@@ -5,12 +5,15 @@ import Skills from "../Skills";
 import Jobs from "../Jobs";
 import Training from "../Training";
 import Footer from "../Footer";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useDarkModeContext } from "../../context/DarkModeContext";
 const Main = () => {
   const { darkMode } = useDarkModeContext();
-  AOS.init({});
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <main
       className={

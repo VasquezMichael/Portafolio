@@ -29,7 +29,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/Barbazul"
             target="_blank"
-            className="flex justify-center w-40 h-10 rounded-lg border border-slate-500 mx-auto items-center transition-all hover:bg-gray-200 font-medium md:w-28"
+            className="flex justify-center w-40 h-10 rounded-lg border border-slate-500 mx-auto items-center transition-all hover:bg-slate-400 font-medium md:w-28"
           >
             Repositorio
           </a>
@@ -54,7 +54,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/mkrolex.github.io"
             target="_blank"
-            className="flex justify-center w-40 h-10 rounded-lg border border-slate-500 mx-auto items-center transition-all hover:bg-gray-200 font-medium md:w-28"
+            className="flex justify-center w-40 h-10 rounded-lg border border-slate-500 mx-auto items-center transition-all hover:bg-slate-400 font-medium md:w-28"
           >
             Repositorio
           </a>
@@ -79,7 +79,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/ReactJs-CoderHouse"
             target="_blank"
-            className="flex justify-center w-40 h-10 rounded-lg border border-slate-500 mx-auto items-center transition-all hover:bg-gray-200 font-medium md:w-28"
+            className="flex justify-center w-40 h-10 rounded-lg border border-slate-500 mx-auto items-center transition-all hover:bg-slate-400 font-medium md:w-28"
           >
             Repositorio
           </a>
@@ -102,7 +102,7 @@ export const Cards = () => {
           </a>
           <a
             href=""
-            className="flex justify-center w-40 h-10 rounded-lg border border-slate-500 mx-auto items-center transition-all hover:bg-gray-200 font-medium md:w-28"
+            className="flex justify-center w-40 h-10 rounded-lg border border-slate-500 mx-auto items-center transition-all hover:bg-slate-400 font-medium md:w-28"
           >
             Repositorio
           </a>

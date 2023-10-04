@@ -2,10 +2,29 @@ import React from "react";
 import { BsFillMoonStarsFill, BsMoonStars } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { useDarkModeContext } from "../../context/DarkModeContext";
+import { useEffect, useState } from "react";
+import "./style.css";
 const Navbar = () => {
   const { darkMode, setDarkMode } = useDarkModeContext();
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolling = window.scrollY > 80;
+      setScrolled(isScrolling);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <nav className="fixed w-full flex h-16  items-center justify-between px-10 md:px-20 lg:px-28 z-50 ">
+    <nav
+      className={
+        scrolled
+          ? "navbar fixed w-full flex h-16  items-center justify-between px-10 md:px-20 lg:px-28 z-50 scrolled"
+          : "navbar fixed w-full flex h-16  items-center justify-between px-10 md:px-20 lg:px-28 z-50"
+      }
+    >
       <h1 className=" text-xl  font-burtons dark:text-white">Developer</h1>
       <ul className="flex items-center">
         <li className="mx-5">

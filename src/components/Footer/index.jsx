@@ -8,8 +8,12 @@ const Footer = () => {
     dark:bg-slate-800"
     >
       <div>
-        <h2 className="text-6xl py-2 text-purple-600 font-burtons">Michael</h2>
-        <h3 className="py-2 text-2xl">Front-End developer</h3>
+        <h2 className="text-5xl py-2 text-transparent bg-gradient-to-r from-purple-700 to-purple-500 bg-clip-text font-burtons">
+          Michael vasquez
+        </h2>
+        <h3 className="py-2 text-2xl dark:text-slate-300">
+          Front-End developer
+        </h3>
       </div>
       <div className="flex  text-center justify-center gap-14 text-4xl">
         <a href="">

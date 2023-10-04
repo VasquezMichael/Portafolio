@@ -11,7 +11,7 @@ const Training = () => {
       <h3
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="text-4xl mb-5 dark:text-white"
+        className="text-4xl mb-5 dark:text-white font-burtons"
       >
         Formación
       </h3>

@@ -18,7 +18,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <nav className="navbar fixed w-full flex h-16 items-center justify-between px-10 md:px-20 lg:px-28 z-50 dark:bg-slate-600 backdrop-blur-sm">
+    <nav className="navbar fixed w-full flex h-14 items-center justify-between px-10 md:px-20 lg:px-28 z-50 backdrop-blur-sm">
       <h1 className=" text-xl  font-burtons dark:text-white">Developer</h1>
       <ul className="flex items-center ">
         <li className="mx-5">

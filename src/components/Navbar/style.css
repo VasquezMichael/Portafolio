@@ -2,6 +2,5 @@
     &.scrolled{
         height: 70px;
         backdrop-filter: blur(3px);
-        background-color: aquamarine;
     }
 }

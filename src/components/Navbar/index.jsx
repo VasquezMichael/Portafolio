@@ -11,8 +11,6 @@ const Navbar = () => {
     const handleScroll = () => {
       const isScrolling = window.scrollY > 100;
       setScrolled(isScrolling);
-      console.log(window.scrollY);
-      console.log(isScrolling);
     };
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -20,15 +18,9 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <nav
-      className={
-        scrolled
-          ? "navbar fixed w-full flex h-16  items-center justify-between px-10 md:px-20 lg:px-28 z-50 scrolled"
-          : "navbar fixed w-full flex h-16  items-center justify-between px-10 md:px-20 lg:px-28 z-50"
-      }
-    >
+    <nav className="navbar fixed w-full flex h-16 items-center justify-between px-10 md:px-20 lg:px-28 z-50 dark:bg-slate-600 backdrop-blur-sm">
       <h1 className=" text-xl  font-burtons dark:text-white">Developer</h1>
-      <ul className="flex items-center">
+      <ul className="flex items-center ">
         <li className="mx-5">
           {darkMode ? (
             <BsMoonStars

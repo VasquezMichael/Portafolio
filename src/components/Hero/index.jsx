@@ -14,7 +14,7 @@ const Hero = () => {
         data-aos-duration="2000"
         className=" h-full mx-auto  mt-32 mb-20 md:w-1/2"
       >
-        <h2 className="text-5xl py-2 text-purple-600 font-medium font-burtons">
+        <h2 className="text-5xl py-2 text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-medium font-burtons">
           Michael Vasquez
         </h2>
         <h3 className=" text-2xl py-2 md:text-3xl dark:text-white">

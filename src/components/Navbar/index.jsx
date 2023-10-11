@@ -2,24 +2,14 @@ import React from "react";
 import { BsFillMoonStarsFill, BsMoonStars } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { useDarkModeContext } from "../../context/DarkModeContext";
-import { useEffect, useState } from "react";
-import "./style.css";
+
 const Navbar = () => {
   const { darkMode, setDarkMode } = useDarkModeContext();
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      const isScrolling = window.scrollY > 100;
-      setScrolled(isScrolling);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
   return (
     <nav className="navbar fixed w-full flex h-14 items-center justify-between px-10 md:px-20 lg:px-28 z-50 backdrop-blur-sm">
-      <h1 className=" text-xl  font-burtons dark:text-white">Developer</h1>
+      <h1 className=" text-2xl text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-burtons ">
+        Developer
+      </h1>
       <ul className="flex items-center ">
         <li className="mx-5">
           {darkMode ? (
@@ -40,7 +30,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className=" hidden sm:block bg-gradient-to-r  from-purple-500  to-purple-800  text-white px-4 py-2 
+            className=" hidden sm:block bg-gradient-to-r from-purple-400 to-blue-500  text-white px-4 py-2 
              rounded-md ml-8"
             href="mailto:vasquez.michael.steven@gmail.com"
           >

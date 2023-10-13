@@ -11,7 +11,7 @@ export const Cards = () => {
       data-aos-duration="1000"
       className="flex flex-wrap flex-col md:flex-row justify-center w-full h-full gap-5  md:justify-evenly"
     >
-      <div className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5 md:p-5">
+      <div className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5 ">
         <Image
           alt="image job"
           src={webBarber}
@@ -30,7 +30,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/Barbazul"
             target="_blank"
-            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-500 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
+            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
           >
             Repo
             <AiFillGithub />
@@ -57,7 +57,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/mkrolex.github.io"
             target="_blank"
-            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-500 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
+            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
           >
             Repo
             <AiFillGithub />
@@ -84,7 +84,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/ReactJs-CoderHouse"
             target="_blank"
-            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-500 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
+            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
           >
             Repo
             <AiFillGithub />
@@ -110,7 +110,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/Portafolio"
             target="_blank"
-            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-500 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
+            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
           >
             Repo
             <AiFillGithub />

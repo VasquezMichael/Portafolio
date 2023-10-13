@@ -4,11 +4,11 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div
-      className="h-screen mt-20 bg-slate-700 flex flex-col text-center items-center  justify-evenly md:flex-row
-    dark:bg-slate-800"
+      className="h-screen mt-20 bg-gradient-to-t from-gray-900 to-gray-200 flex flex-col text-center items-center  justify-evenly md:flex-row
+    dark:bg-gradient-to-b"
     >
       <div>
-        <h2 className="text-5xl py-2 text-transparent bg-gradient-to-r from-purple-700 to-purple-500 bg-clip-text font-burtons">
+        <h2 className="text-5xl py-2 text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-burtons">
           Michael vasquez
         </h2>
         <h3 className="py-2 text-2xl dark:text-slate-300">
@@ -37,7 +37,7 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-purple-600"
+          className="cursor-pointer hover:text-slate-300"
         >
           Sobre mi
         </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-purple-600"
+          className="cursor-pointer hover:text-slate-300"
         >
           Formacion
         </Link>
@@ -59,7 +59,7 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-purple-600"
+          className="cursor-pointer hover:text-slate-300"
         >
           Portafolio
         </Link>

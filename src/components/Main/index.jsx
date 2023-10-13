@@ -19,13 +19,13 @@ const Main = () => {
       className={
         darkMode
           ? "  dark min-h-screen bg-slate-900"
-          : " min-h-screen bg-slate-100"
+          : " min-h-screen bg-slate-200"
       }
     >
       <Navbar />
       <section
         id="body"
-        className=" bg-slate-100 px-10 md:px-20 lg:px-28 h-full dark:bg-gray-900"
+        className=" bg-slate-200 px-10 md:px-20 lg:px-28 h-full dark:bg-gray-900"
       >
         <Hero />
         <Skills />

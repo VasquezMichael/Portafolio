@@ -5,6 +5,7 @@ import Skills from "../Skills";
 import Jobs from "../Jobs";
 import Training from "../Training";
 import Footer from "../Footer";
+import Experience from "../Experience";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -31,6 +32,7 @@ const Main = () => {
         <Skills />
         <Training />
         <Jobs />
+        <Experience />
       </section>
       <Footer />
     </main>

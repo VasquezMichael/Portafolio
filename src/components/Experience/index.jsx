@@ -44,7 +44,7 @@ const Experience = () => {
     <Container className="my-24 flex flex-col items-center justify-center text-center gap-10">
       <div className="container-title flex md:flex-col ">
         <h2 className=" text-4xl py-1 dark:text-white font-burtons">
-          Experiencia profesional
+          Experiencia profesional {stateSlider}
         </h2>
         <p className="hidden md:block">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci

@@ -25,13 +25,18 @@ const Experience = () => {
 
   const [stateSlider, setStateSlider] = useState(0);
   useEffect(() => {
-    const getWindowWidth = () => {
-      return window.screen.width;
-    };
+    if (typeof window !== "undefined") {
+      const getWindowWidth = () => {
+        return window.screen.width;
+      };
+    }
+
     const handleResize = () => {
       setStateSlider(getWindowWidth());
     };
+
     window.addEventListener("resize", handleResize);
+    setStateSlider(getWindowWidth());
     return () => {
       window.removeEventListener("resize", handleResize);
     };

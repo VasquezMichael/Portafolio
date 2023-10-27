@@ -14,8 +14,9 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
     .image {
-      width: 80%;
+      width: 100%;
       object-fit: cover;
       border-radius: 1rem;
     }
@@ -33,11 +34,13 @@ export const Container = styled.div`
     }
   }
   @media screen and (min-width: 690px) {
-    margin-top: 0px;
-
     .Swiper-img-container {
-      width: 50%;
-      height: 100%;
+      height: 500px;
+      .image {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
     }
   }
 `;

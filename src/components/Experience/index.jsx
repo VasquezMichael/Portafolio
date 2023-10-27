@@ -9,6 +9,8 @@ import "swiper/css/navigation";
 import Image from "next/image";
 import puro from "../../../public/adm.png";
 import jami from "../../../public/tecnico.png";
+import { useState, useEffect } from "react";
+
 const Experience = () => {
   const imagenes = [
     {
@@ -21,27 +23,42 @@ const Experience = () => {
     },
   ];
 
+  const [stateSlider, setStateSlider] = useState(window.screen.width);
+  useEffect(() => {
+    const handleResize = () => {
+      setStateSlider(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <Container className=" bg-gray-700 my-24 p-5 flex flex-col items-center justify-center text-center gap-10">
-      <h2 className="text-5xl py-2 text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-medium font-burtons">
-        Experiencia profesional
-      </h2>
-      <p className="hidden md:block">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci harum
-        commodi deserunt expedita facere, odio ipsum repellendus quia. Sapiente
-        laudantium explicabo repudiandae ad omnis aperiam et eligendi, ab ipsum
-        incidunt!
-      </p>
+    <Container className="my-24 flex flex-col items-center justify-center text-center gap-10">
+      <div className="container-title flex md:flex-col ">
+        <h2 className=" text-4xl py-1 dark:text-white font-burtons">
+          Experiencia profesional {stateSlider}
+        </h2>
+        <p className="hidden md:block">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+          harum commodi deserunt expedita facere, odio ipsum repellendus quia.
+          Sapiente laudantium explicabo repudiandae ad omnis aperiam et
+          eligendi, ab ipsum incidunt!
+        </p>
+      </div>
       <Swiper
-        className="Swiper-Container"
+        className="Swiper-Container gap-10"
         grabCursor={true}
+        effect={"coverflow"}
+        pagination={true}
         centeredSlides={true}
-        slidesPerView="1"
+        slidesPerView={stateSlider > 800 ? "3" : 1}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
           depth: 100,
-          modifier: 2.5,
+          modifier: 5,
         }}
         navigation={{
           nextEl: ".swiper-button-next",
@@ -52,7 +69,10 @@ const Experience = () => {
       >
         {imagenes.map((img) => {
           return (
-            <SwiperSlide key={img.key} className="Swiper-img-container">
+            <SwiperSlide
+              key={img.key}
+              className="Swiper-img-container p-5 rounded-xl bg-slate-400"
+            >
               <Image className="image" src={img.img} />
             </SwiperSlide>
           );

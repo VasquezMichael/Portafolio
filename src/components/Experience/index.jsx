@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
 import puro from "../../../public/adm.png";
-import jami from "../../../public/btc.png";
+import jami from "../../../public/Btc.png";
 import { useState, useEffect } from "react";
 
 const Experience = () => {

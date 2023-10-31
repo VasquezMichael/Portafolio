@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
 import puro from "../../../public/adm.png";
-import jami from "../../../public/tecnico.png";
+import jami from "../../../public/btc.png";
 import { useState, useEffect } from "react";
 
 const Experience = () => {
@@ -30,6 +30,7 @@ const Experience = () => {
     };
 
     const handleResize = () => {
+      console.log(window.screen.width);
       setStateSlider(getWindowWidth());
     };
 
@@ -59,7 +60,7 @@ const Experience = () => {
         effect={"coverflow"}
         pagination={true}
         centeredSlides={true}
-        slidesPerView={stateSlider > 800 ? "3" : 1}
+        slidesPerView={stateSlider > 770 ? "3" : 1}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,

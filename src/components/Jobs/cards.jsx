@@ -6,12 +6,12 @@ import Image from "next/image";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
 export const Cards = () => {
   return (
-    <div
-      data-aos="zoom-in-up"
-      data-aos-duration="1000"
-      className="flex flex-wrap flex-col md:flex-row justify-center w-full h-full gap-5  md:justify-evenly"
-    >
-      <div className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5 ">
+    <div className="flex flex-wrap flex-col md:flex-row justify-center w-full h-full gap-5  md:justify-evenly">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5 "
+      >
         <Image
           alt="image job"
           src={webBarber}
@@ -38,7 +38,11 @@ export const Cards = () => {
         </div>
       </div>
 
-      <div className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5"
+      >
         <Image
           alt="image job"
           src={mkrolex}
@@ -65,7 +69,11 @@ export const Cards = () => {
         </div>
       </div>
 
-      <div className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5"
+      >
         <Image
           alt="image job"
           src={zzshop}
@@ -91,7 +99,11 @@ export const Cards = () => {
           </a>
         </div>
       </div>
-      <div className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5"
+      >
         <Image
           alt="image job"
           src={zzshop}

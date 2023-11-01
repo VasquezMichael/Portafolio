@@ -15,6 +15,8 @@ const cards = () => {
       className="grid grid-cols-2 md:grid-cols-4 gap-5 my-10"
     >
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
@@ -25,6 +27,8 @@ const cards = () => {
         />
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
@@ -35,6 +39,8 @@ const cards = () => {
         />
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4 mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
@@ -45,6 +51,8 @@ const cards = () => {
         />
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
@@ -55,6 +63,8 @@ const cards = () => {
         />
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
@@ -65,6 +75,8 @@ const cards = () => {
         />
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
@@ -75,6 +87,8 @@ const cards = () => {
         />
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >
@@ -85,6 +99,8 @@ const cards = () => {
         />
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
         id="card"
         className=" shadow-xl rounded-xl w-28 h-28 p-4  mx-auto dark:bg-slate-700 hover:scale-110 duration-300"
       >

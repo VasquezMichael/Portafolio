@@ -12,11 +12,11 @@ const Training = () => {
       className="flex w-full h-auto flex-col flex-wrap text-center justify-center p-5 md:gap-2 mb-24"
     >
       <h3
-        data-aos="fade-up"
+        data-aos="flip-left"
         data-aos-duration="1000"
-        className="text-4xl mb-5 dark:text-white font-burtons"
+        className="text-3xl py-1 dark:text-white font-burtons "
       >
-        Formación
+        FORMACION
       </h3>
       <div
         id="Container-cards"
@@ -30,12 +30,12 @@ const Training = () => {
         >
           <div
             id="img-unlp"
-            className="flex w-full h-1/2 text-center justify-center "
+            className="flex w-full h-1/2 text-center justify-center mt-1"
           >
             <Image width={110} height={110} src={unlp} alt="" />
           </div>
           <div className=" text-slate-200 flex flex-col justify-center text-center items-center">
-            <p className="my-2 font-semibold">
+            <p className="mt-5 font-semibold">
               UNIVERSIDAD NACIONAL DE LA PLATA
             </p>
             <p>Licenciatura en sistemas</p>
@@ -56,11 +56,11 @@ const Training = () => {
           data-aos="flip-left"
           data-aos-duration="1000"
           id="Coder-js"
-          className=" w-full h-80 m-auto rounded-xl my-5 overflow-hidden shadow-xl bg-slate-700 p-3 md:w-64"
+          className=" w-full h-80 m-auto rounded-xl my-4 overflow-hidden shadow-xl bg-slate-700 p-3 md:w-64"
         >
           <div
             id="img-js"
-            className="flex w-full h-1/2 text-center justify-center my-3 "
+            className="flex w-full h-1/2 text-center justify-center my-3"
           >
             <Image width={170} height={110} src={coder} alt="" />
           </div>

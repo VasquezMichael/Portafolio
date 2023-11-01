@@ -44,10 +44,10 @@ const Experience = () => {
   return (
     <Container className="my-24 flex flex-col items-center justify-center text-center gap-10">
       <div className="container-title flex md:flex-col ">
-        <h2 className=" text-4xl py-1 dark:text-white font-burtons">
-          Experiencia profesional {stateSlider}
+        <h2 className=" text-3xl py-1 dark:text-white font-burtons">
+          EXPERIENCIA PROFESIONAL
         </h2>
-        <p className="hidden md:block">
+        <p className="hidden md:block dark:text-gray-300">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
           harum commodi deserunt expedita facere, odio ipsum repellendus quia.
           Sapiente laudantium explicabo repudiandae ad omnis aperiam et
@@ -78,7 +78,7 @@ const Experience = () => {
           return (
             <SwiperSlide
               key={img.key}
-              className="Swiper-img-container p-5 rounded-xl bg-slate-400"
+              className="Swiper-img-container p-5 rounded-xl bg-slate-700"
             >
               <Image className="image" src={img.img} />
             </SwiperSlide>

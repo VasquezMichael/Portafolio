@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       id="Sobremi"
-      className=" hero text-center justify-center flex flex-col md:flex-row mb-24"
+      className=" hero text-center justify-center flex flex-col md:flex-row mb-24 "
     >
       <div
         data-aos="fade-right"
@@ -40,10 +40,11 @@ const Hero = () => {
           </a>
         </div>
       </div>
+      <div className="h-80 my-auto bg-black w-0.5 hidden md:block"></div>
       <div
         data-aos="fade-left"
         data-aos-duration="2000"
-        className=" img-hero relative rounded-full mx-auto my-auto h-72 w-72 bg-gradient-to-b from-purple-900 overflow-hidden md:h-80 md:w-80"
+        className=" img-hero relative rounded-full mx-auto my-auto h-72 w-72  overflow-hidden md:h-80 md:w-80"
       >
         <Image alt="Image michael" layout="fill" objectFit="cover" src={mike} />
       </div>

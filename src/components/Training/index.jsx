@@ -16,7 +16,7 @@ const Training = () => {
         data-aos-duration="1000"
         className="text-3xl py-1 dark:text-white font-burtons "
       >
-        FORMACION
+        FORMACIÓN
       </h3>
       <div
         id="Container-cards"

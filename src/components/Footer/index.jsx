@@ -4,18 +4,18 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div
-      className="h-screen mt-20 bg-gradient-to-t from-gray-900 to-gray-200 flex flex-col text-center items-center  justify-evenly md:flex-row
-    dark:bg-gradient-to-b"
+      className="h-screen mt-20 bg-gradient-to-t from-gray-900 to-gray-200 flex flex-col text-center items-center gap-24 justify-center md:flex-row
+    dark:bg-gradient-to-b p-2"
     >
-      <div>
-        <h2 className="text-5xl py-2 text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-burtons">
-          Michael vasquez
+      <div className=" h-28">
+        <h2 className="text-5xl text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-burtons">
+          michael vasquez
         </h2>
         <h3 className="py-2 text-2xl dark:text-slate-300">
           Front-End developer
         </h3>
       </div>
-      <div className="flex  text-center justify-center gap-14 text-4xl">
+      <div className="flex text-center justify-center gap-14 text-4xl  h-28 ">
         <a href="">
           <AiFillGithub className="transition-all hover:scale-110 " />
         </a>
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       <div
         id="links"
-        className="flex flex-col h-28 justify-between text-2xl font-lg gap-8 font-burtons"
+        className="flex h-28 justify-between text-xl font-lg gap-5 font-burtons flex-wrap"
       >
         <Link
           activeClass="active"
@@ -37,9 +37,9 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-slate-300"
+          className="cursor-pointer hover:text-slate-300 h-10"
         >
-          Sobre mi
+          SOBRE MI
         </Link>
         <Link
           activeClass="active"
@@ -48,9 +48,9 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-slate-300"
+          className="cursor-pointer hover:text-slate-300 h-10"
         >
-          Formacion
+          FORMACIÓN
         </Link>
         <Link
           activeClass="active"
@@ -59,9 +59,9 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-slate-300"
+          className="cursor-pointer hover:text-slate-300 h-10"
         >
-          Portafolio
+          PORTAFOLIO
         </Link>
       </div>
     </div>

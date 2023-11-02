@@ -10,7 +10,7 @@ export const Cards = () => {
       <div
         data-aos="zoom-in-up"
         data-aos-duration="1000"
-        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5 "
+        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-6 rounded-lg dark:bg-slate-700 mb-5 "
       >
         <Image
           alt="image job"
@@ -18,7 +18,7 @@ export const Cards = () => {
           className="mx-auto w-full h-72 rounded-sm "
         />
 
-        <div className="flex items-center text-center justify-evenly h-20 w-full gap-1 ">
+        <div className="flex items-center text-center justify-evenly h-14 w-full gap-1 ">
           <a
             href="https://barberzz.netlify.app/"
             target="_blank"
@@ -41,7 +41,7 @@ export const Cards = () => {
       <div
         data-aos="zoom-in-up"
         data-aos-duration="1000"
-        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5"
+        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-6 rounded-lg dark:bg-slate-700 mb-5"
       >
         <Image
           alt="image job"
@@ -49,7 +49,7 @@ export const Cards = () => {
           className="mx-auto w-full h-72 rounded-sm "
         />
 
-        <div className="flex items-center text-center justify-evenly h-20 w-full gap-1 ">
+        <div className="flex items-center text-center justify-evenly h-14 w-full gap-1 ">
           <a
             href="https://mkrolex.netlify.app/"
             target="_blank"
@@ -72,7 +72,7 @@ export const Cards = () => {
       <div
         data-aos="zoom-in-up"
         data-aos-duration="1000"
-        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5"
+        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-6 rounded-lg dark:bg-slate-700 mb-5"
       >
         <Image
           alt="image job"
@@ -80,7 +80,7 @@ export const Cards = () => {
           className="mx-auto w-full h-72 rounded-sm "
         />
 
-        <div className="flex items-center text-center justify-evenly h-20 w-full gap-1 ">
+        <div className="flex items-center text-center justify-evenly h-14 w-full gap-1 ">
           <a
             href="https://zz-shop.netlify.app"
             target="_blank"
@@ -102,7 +102,7 @@ export const Cards = () => {
       <div
         data-aos="zoom-in-up"
         data-aos-duration="1000"
-        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-4 rounded-lg dark:bg-slate-700 mb-5"
+        className="card flex flex-col text-center justify-center h-full shadow-xl w-full md:w-80 p-6 rounded-lg dark:bg-slate-700 mb-5"
       >
         <Image
           alt="image job"
@@ -110,7 +110,7 @@ export const Cards = () => {
           className="mx-auto w-full h-72 rounded-sm "
         />
 
-        <div className="flex items-center text-center justify-evenly h-20 w-full gap-1 ">
+        <div className="flex items-center text-center justify-evenly h-14 w-full gap-1 ">
           <a
             href="https://mike-porfolio.netlify.app"
             target="_blank"

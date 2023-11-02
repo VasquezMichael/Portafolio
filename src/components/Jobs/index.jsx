@@ -14,11 +14,7 @@ const Jobs = () => {
             PORTAFOLIO
           </h3>
           <p className="text-md py-2 text-gray-800 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-            <span className="text-purple-600">Quibusdam</span> ab, quae, debitis
-            vel nam vitae quidem expedita{" "}
-            <span className="text-purple-600">repudiandae</span> odio ad placeat
-            ipsam commodi delectus dolor.
+            Explorá mis ultimos proyectos
           </p>
         </div>
       </div>

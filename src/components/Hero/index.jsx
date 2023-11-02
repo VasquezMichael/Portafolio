@@ -40,7 +40,11 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="h-80 my-auto bg-black w-0.5 hidden md:block"></div>
+      <div
+        data-aos="fade-down"
+        data-aos-duration="2000"
+        className="h-80 my-auto bg-black w-0.5 hidden md:block dark:bg-slate-300"
+      ></div>
       <div
         data-aos="fade-left"
         data-aos-duration="2000"

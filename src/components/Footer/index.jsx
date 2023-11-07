@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       <div
         id="links"
-        className="flex md:h-20 justify-between text-xl font-lg gap-5 font-burtons flex-wrap"
+        className="flex md: h-20 justify-between text-xl font-lg gap-5 font-burtons flex-wrap"
       >
         <Link
           activeClass="active"

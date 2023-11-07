@@ -32,11 +32,15 @@ const Navbar = () => {
           <a
             className=" hidden sm:block bg-gradient-to-r from-purple-400 to-blue-500  text-white px-4 py-2 
              rounded-md ml-8"
-            href="mailto:vasquez.michael.steven@gmail.com"
+            href="https://docs.google.com/document/d/1WT41IwNFCjtXtUidVa_BxsJ2dEOqo3jsHLDUHWi6KoY/edit?usp=drive_link"
+            target="blank"
           >
-            Contactame
+            ver CV
           </a>
-          <a href="mailto:vasquez.michael.steven@gmail.com" target="blank">
+          <a
+            href="https://docs.google.com/document/d/1WT41IwNFCjtXtUidVa_BxsJ2dEOqo3jsHLDUHWi6KoY/edit?usp=drive_link"
+            target="blank"
+          >
             <HiOutlineMail
               size={25}
               className="block sm:hidden dark:text-white ml-3"

@@ -7,7 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
-import puro from "../../../public/administracion.png";
+import puro from "../../../public/Administracion.png";
 import jami from "../../../public/Btc.png";
 import { useState, useEffect } from "react";
 

@@ -22,7 +22,7 @@ export const Cards = () => {
           <a
             href="https://barberzz.netlify.app/"
             target="_blank"
-            className="flex justify-evenly w-36 h-8 text-lg rounded-lg mx-auto transition-all duration-700 items-center bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 md:w-32 "
+            className="flex justify-evenly w-36 h-8 text-lg rounded-lg mx-auto transition-all duration-700 items-center bg-gradient-to-r from-purple-400 to-blue-500 hover:bg-none border border-purple-400 md:w-32 "
           >
             Visitar
             <AiFillEye />
@@ -30,7 +30,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/Barbazul"
             target="_blank"
-            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
+            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 "
           >
             Repo
             <AiFillGithub />
@@ -53,7 +53,7 @@ export const Cards = () => {
           <a
             href="https://mkrolex.netlify.app/"
             target="_blank"
-            className="flex justify-evenly w-36 h-8 text-lg rounded-lg mx-auto transition-all duration-700 items-center bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 md:w-32 "
+            className="flex justify-evenly w-36 h-8 text-lg rounded-lg mx-auto transition-all duration-700 items-center bg-gradient-to-r from-purple-400 to-blue-500 hover:bg-none border border-purple-400 md:w-32 "
           >
             Visitar
             <AiFillEye />
@@ -61,7 +61,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/mkrolex.github.io"
             target="_blank"
-            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
+            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500  "
           >
             Repo
             <AiFillGithub />
@@ -84,7 +84,7 @@ export const Cards = () => {
           <a
             href="https://zz-shop.netlify.app"
             target="_blank"
-            className="flex justify-evenly w-36 h-8 text-lg rounded-lg mx-auto transition-all duration-700 items-center bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 md:w-32 "
+            className="flex justify-evenly w-36 h-8 text-lg rounded-lg mx-auto transition-all duration-700 items-center bg-gradient-to-r from-purple-400 to-blue-500 hover:bg-none border border-purple-400 md:w-32 "
           >
             Visitar
             <AiFillEye />
@@ -92,7 +92,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/ReactJs-CoderHouse"
             target="_blank"
-            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
+            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 "
           >
             Repo
             <AiFillGithub />
@@ -114,7 +114,7 @@ export const Cards = () => {
           <a
             href="https://mike-porfolio.netlify.app"
             target="_blank"
-            className="flex justify-evenly w-36 h-8 text-lg rounded-lg mx-auto transition-all duration-700 items-center bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 md:w-32 "
+            className="flex justify-evenly w-36 h-8 text-lg rounded-lg mx-auto transition-all duration-700 items-center bg-gradient-to-r from-purple-400 to-blue-500 hover:bg-none border border-purple-400 md:w-32 "
           >
             Visitar
             <AiFillEye />
@@ -122,7 +122,7 @@ export const Cards = () => {
           <a
             href="https://github.com/VasquezMichael/Portafolio"
             target="_blank"
-            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:scale-110 "
+            className="flex justify-evenly w-28 h-8 text-lg mx-auto items-center  transition-all duration-700 md:w-24 rounded-lg border border-purple-400 hover:bg-gradient-to-r from-purple-400 to-blue-500  "
           >
             Repo
             <AiFillGithub />

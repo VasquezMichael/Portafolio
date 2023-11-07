@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillMoonStarsFill, BsMoonStars } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
+import { LuFileSpreadsheet } from "react-icons/lu";
 import { useDarkModeContext } from "../../context/DarkModeContext";
 
 const Navbar = () => {
@@ -30,8 +30,8 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className=" hidden sm:block bg-gradient-to-r from-purple-400 to-blue-500  text-white px-4 py-2 
-             rounded-md ml-8"
+            className=" hidden sm:block bg-gradient-to-r from-purple-400 to-blue-500  text-black px-4 py-2 
+             rounded-md ml-8 "
             href="https://docs.google.com/document/d/1WT41IwNFCjtXtUidVa_BxsJ2dEOqo3jsHLDUHWi6KoY/edit?usp=drive_link"
             target="blank"
           >
@@ -41,8 +41,8 @@ const Navbar = () => {
             href="https://docs.google.com/document/d/1WT41IwNFCjtXtUidVa_BxsJ2dEOqo3jsHLDUHWi6KoY/edit?usp=drive_link"
             target="blank"
           >
-            <HiOutlineMail
-              size={25}
+            <LuFileSpreadsheet
+              size={23}
               className="block sm:hidden dark:text-white ml-3"
             />
           </a>

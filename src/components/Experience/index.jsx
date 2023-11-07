@@ -7,7 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
-import puro from "../../../public/adm.png";
+import puro from "../../../public/administracion.png";
 import jami from "../../../public/Btc.png";
 import { useState, useEffect } from "react";
 
@@ -48,10 +48,8 @@ const Experience = () => {
           EXPERIENCIA PROFESIONAL
         </h2>
         <p className="hidden md:block dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          harum commodi deserunt expedita facere, odio ipsum repellendus quia.
-          Sapiente laudantium explicabo repudiandae ad omnis aperiam et
-          eligendi, ab ipsum incidunt!
+          Un breve resumen de mis experiencias profesionales en las areas que
+          logré desempeñarme
         </p>
       </div>
       <Swiper

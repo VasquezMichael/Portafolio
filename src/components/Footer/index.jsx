@@ -8,21 +8,31 @@ const Footer = () => {
     dark:bg-gradient-to-b p-2"
     >
       <div className="md:h-20">
-        <h2 className="text-5xl text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-burtons">
-          michael vasquez
-        </h2>
+        <h2 className="text-5xl  font-burtons">michael vasquez</h2>
         <h3 className="py-2 text-2xl dark:text-slate-300">
           Front-End developer
         </h3>
       </div>
       <div className="flex text-center justify-center gap-14 text-4xl  md:h-20 ">
-        <a href="" className="h-10">
+        <a
+          href="https://github.com/VasquezMichael"
+          target="blank"
+          className="h-10"
+        >
           <AiFillGithub className="transition-all hover:scale-110 " />
         </a>
-        <a href="" className="h-10">
+        <a
+          href="https://www.linkedin.com/in/michael-vasquez-4b4827205/"
+          target="blank"
+          className="h-10"
+        >
           <AiFillLinkedin className="transition-all hover:scale-110 " />
         </a>
-        <a href="" className="h-10">
+        <a
+          href="https://www.instagram.com/__michaelsteven/"
+          target="blank"
+          className="h-10"
+        >
           <AiFillInstagram className="transition-all hover:scale-110 " />
         </a>
       </div>

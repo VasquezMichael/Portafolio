@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className=" hidden sm:block bg-gradient-to-r from-purple-400 to-blue-500  text-black px-4 py-2 
+            className=" hidden sm:block bg-gradient-to-r from-purple-400 to-blue-500  text-black px-4 py-1 
              rounded-md ml-8 "
             href="https://docs.google.com/document/d/1WT41IwNFCjtXtUidVa_BxsJ2dEOqo3jsHLDUHWi6KoY/edit?usp=drive_link"
             target="blank"

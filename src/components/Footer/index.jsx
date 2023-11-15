@@ -4,16 +4,18 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div
-      className="h-96 mt-64 bg-gradient-to-t from-gray-900 to-gray-200 flex flex-col text-center items-center justify-evenly md:flex-row md:gap-24
-    dark:bg-gradient-to-b p-2"
+      className="h-96 mt-64 flex flex-col text-center items-center justify-evenly md:flex-row md:gap-24
+    dark:bg-gradient-to-b p-2 bg-slate-700"
     >
       <div className="md:h-20">
-        <h2 className="text-5xl  font-burtons">michael vasquez</h2>
-        <h3 className="py-2 text-2xl dark:text-slate-300">
+        <h2 className="text-3xl text-slate-300 font-burtons">
+          michael vasquez
+        </h2>
+        <h3 className=" text-4xl text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-burtons">
           Front-End developer
         </h3>
       </div>
-      <div className="flex text-center justify-center gap-14 text-4xl  md:h-20 ">
+      <div className="flex text-center justify-center gap-14 text-4xl  md:h-20 text-slate-300">
         <a
           href="https://github.com/VasquezMichael"
           target="blank"
@@ -38,7 +40,7 @@ const Footer = () => {
       </div>
       <div
         id="links"
-        className="flex md: h-20 justify-between text-xl font-lg gap-5 font-burtons flex-wrap"
+        className="flex md: h-20 justify-between text-xl font-lg gap-5 font-burtons flex-wrap text-slate-300"
       >
         <Link
           activeClass="active"
@@ -47,7 +49,7 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-slate-300 h-10"
+          className="cursor-pointer hover:text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text h-10"
         >
           SOBRE MI
         </Link>
@@ -58,7 +60,7 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-slate-300 h-10"
+          className="cursor-pointer  hover:text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text h-10"
         >
           FORMACIÓN
         </Link>
@@ -69,7 +71,7 @@ const Footer = () => {
           smooth={true}
           offset={-70}
           duration={1000}
-          className="cursor-pointer hover:text-slate-300 h-10"
+          className="cursor-pointer  hover:text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text h-10"
         >
           PORTAFOLIO
         </Link>

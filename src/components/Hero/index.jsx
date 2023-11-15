@@ -12,20 +12,23 @@ const Hero = () => {
       <div
         data-aos="fade-right"
         data-aos-duration="2000"
-        className=" h-full mx-auto mt-28 mb-20 md:w-1/2"
+        className=" h-full mx-auto mt-40 mb-20 md:w-1/2 px-5 text-left"
       >
-        <h2 className="text-5xl py-2 text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-medium font-burtons">
-          MICHAEL VASQUEZ
-        </h2>
-        <h3 className=" text-2xl py-2 md:text-3xl dark:text-white">
-          Front-end developer.
-        </h3>
-        <p className=" text-md py-2 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
-          Estudiante de Licenciatura en sistemas, actualmente enfocado en el
-          desarrollo web. Mi objetivo se centra en crear experiencias digitales
-          eficientes.
+        <div className="flex flex-col gap-2 ">
+          <span className="text-3xl text-gray-800 dark:text-gray-400">
+            Hola, soy Michael
+          </span>
+          <div className=" ">
+            <span className="text-4xl md:text-5xl text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-burtons ">
+              FrontEnd Developer.
+            </span>
+          </div>
+        </div>
+        <p className=" text-md py-2 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 ">
+          Estudio sistemas en la Universidad Nacional de La Plata. Me apasionan
+          los gatos y el café. ☕
         </p>
-        <div className=" redes-sociales flex justify-center gap-16 text-5xl py-3 text-gray-600 dark:text-gray-300">
+        <div className=" redes-sociales flex gap-16 text-5xl py-3 text-gray-600 dark:text-gray-300">
           <a href="https://github.com/VasquezMichael" target="blank">
             <AiFillGithub className="transition-all hover:scale-110 " />
           </a>

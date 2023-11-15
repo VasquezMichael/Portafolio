@@ -18,7 +18,7 @@ const Hero = () => {
           MICHAEL VASQUEZ
         </h2>
         <h3 className=" text-2xl py-2 md:text-3xl dark:text-white">
-          Desarrollador & administrativo.
+          Front-end developer.
         </h3>
         <p className=" text-md py-2 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
           Estudiante de Licenciatura en sistemas, actualmente enfocado en el

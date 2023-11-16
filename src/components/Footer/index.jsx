@@ -51,7 +51,7 @@ const Footer = () => {
           duration={1000}
           className="cursor-pointer hover:text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text h-10"
         >
-          SOBRE MI
+          SOBRE MÍ
         </Link>
         <Link
           activeClass="active"

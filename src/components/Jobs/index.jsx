@@ -14,7 +14,7 @@ const Jobs = () => {
             PORTAFOLIO
           </h3>
           <p className="text-md py-2 text-gray-800 dark:text-gray-300">
-            Explorá mis ultimos proyectos
+            Explora mis ultimos proyectos
           </p>
         </div>
       </div>

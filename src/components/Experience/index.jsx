@@ -16,10 +16,12 @@ const Experience = () => {
     {
       img: puro,
       key: "1",
+      alt: "puro",
     },
     {
       img: jami,
       key: "2",
+      alt: "jami",
     },
   ];
 
@@ -30,7 +32,6 @@ const Experience = () => {
     };
 
     const handleResize = () => {
-      console.log(window.screen.width);
       setStateSlider(getWindowWidth());
     };
 
@@ -48,8 +49,8 @@ const Experience = () => {
           EXPERIENCIA PROFESIONAL
         </h2>
         <p className="hidden md:block dark:text-gray-300">
-          Un breve resumen de mis experiencias profesionales en las areas que
-          logré desempeñarme
+          Un breve resumen de mis experiencias profesionales en las áreas en las
+          que logré desempeñarme.
         </p>
       </div>
       <Swiper
@@ -78,7 +79,7 @@ const Experience = () => {
               key={img.key}
               className="Swiper-img-container p-5 rounded-xl bg-slate-700"
             >
-              <Image className="image" src={img.img} />
+              <Image className="image" alt={img.alt} src={img.img} />
             </SwiperSlide>
           );
         })}

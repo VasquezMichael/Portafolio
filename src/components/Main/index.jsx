@@ -26,7 +26,7 @@ const Main = () => {
       <Navbar />
       <section
         id="body"
-        className=" bg-slate-200 px-10 md:px-20 lg:px-28 h-full dark:bg-gray-900"
+        className=" bg-slate-200 px-10 md:px-20 lg:px-28 2xl:px-80 h-full dark:bg-gray-900"
       >
         <Hero />
         <Skills />

@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import mike from "../../../public/Michael.png";
+import mike from "../../../public/mike.jpg";
 import Image from "next/image";
 
 const Hero = () => {
@@ -51,7 +51,7 @@ const Hero = () => {
       <div
         data-aos="fade-left"
         data-aos-duration="2000"
-        className=" img-hero relative rounded-full mx-auto my-auto h-72 w-72  overflow-hidden md:h-80 md:w-80"
+        className=" img-hero relative rounded-2xl mx-auto my-auto h-72 w-72 overflow-hidden md:h-80 md:w-80"
       >
         <Image alt="Image michael" layout="fill" objectFit="cover" src={mike} />
       </div>

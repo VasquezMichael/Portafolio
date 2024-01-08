@@ -6,7 +6,7 @@ import { useDarkModeContext } from "../../context/DarkModeContext";
 const Navbar = () => {
   const { darkMode, setDarkMode } = useDarkModeContext();
   return (
-    <nav className="navbar fixed w-full flex h-14 items-center justify-between px-10 md:px-20 lg:px-28 2xl:px-80 z-50 backdrop-blur-sm">
+    <nav className="navbar fixed w-full flex h-14 items-center justify-between px-10 md:px-20 lg:px-32 2xl:px-80 z-50 backdrop-blur-sm">
       <h1 className=" text-xl text-transparent bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text font-burtons ">
         DEVELOPER
       </h1>
@@ -32,13 +32,13 @@ const Navbar = () => {
           <a
             className=" hidden sm:block bg-gradient-to-r from-purple-400 to-blue-500 font-burtons px-4 py-1 
              rounded-md ml-8 "
-            href="https://docs.google.com/document/d/1WT41IwNFCjtXtUidVa_BxsJ2dEOqo3jsHLDUHWi6KoY/edit?usp=drive_link"
+            href="https://drive.google.com/file/d/1mA4DBoiSyeXbZfusGZ2T6TKa6hzRKJsq/view?usp=drive_link"
             target="blank"
           >
             ver cv
           </a>
           <a
-            href="https://docs.google.com/document/d/1WT41IwNFCjtXtUidVa_BxsJ2dEOqo3jsHLDUHWi6KoY/edit?usp=drive_link"
+            href="https://drive.google.com/file/d/1mA4DBoiSyeXbZfusGZ2T6TKa6hzRKJsq/view?usp=drive_link"
             target="blank"
           >
             <LuFileSpreadsheet

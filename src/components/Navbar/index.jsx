@@ -32,7 +32,7 @@ const Navbar = () => {
           <a
             className=" hidden sm:block bg-gradient-to-r from-purple-400 to-blue-500 font-burtons px-4 py-1 
              rounded-md ml-8 "
-            href="https://drive.google.com/file/d/1mA4DBoiSyeXbZfusGZ2T6TKa6hzRKJsq/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1EYop5trgPNkGqjeC9XcAYB1JS6rlbgx9/view?usp=sharing"
             target="blank"
           >
             ver cv
